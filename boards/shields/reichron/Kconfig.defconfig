@@ -1,11 +1,9 @@
-# Kconfig.defconfig
-
 if SHIELD_REICHRON
 
 config ZMK_KEYBOARD_NAME
     default "Reichron"
 
-config ZMK_USB_LOGGING
+config ZMK_DISPLAY
     default y
 
 endif
