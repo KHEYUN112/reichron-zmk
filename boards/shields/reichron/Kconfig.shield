@@ -1,4 +1,2 @@
-# Kconfig.shield
-
 config SHIELD_REICHRON
     def_bool $(shields_list_contains,reichron)
