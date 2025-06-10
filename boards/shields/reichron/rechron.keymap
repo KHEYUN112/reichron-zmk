@@ -6,27 +6,7 @@
 #define DEFAULT 0
 #define BLUETOOTH 1
 
-// Behavior Overrides
-&lt {
-    tapping-term-ms = <200>;
-    flavor = "hold-preferred";
-};
-
 / {
-    //combos {
-      //  compatible = "zmk,combos";
-        
-        //combo_tab {
-        //  timeout-ms = <20>;
-        //  key-positions = <1 2>;
-        //  bindings = <&kp TAB>;
-        //};
-      //  combo_enter {
-        //    timeout-ms = <20>;
-          //  key-positions = <13 14>;
-            //bindings = <&kp ENTER>;
-        //};
-    //};
     
     keymap {
         compatible = "zmk,keymap";
