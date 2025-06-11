@@ -3,4 +3,7 @@ if SHIELD_REICHRON
 config ZMK_KEYBOARD_NAME
     default "reichron"
 
+config ZMK_DISPLAY
+    default y
+
 endif
