@@ -13,6 +13,7 @@
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
+        wakeup-source;
         
         row-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, /* Row 0 - Top row (Esc to Backspace) */
                     <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, /* Row 1 - QWERTY row (Tab to Backslash) */
