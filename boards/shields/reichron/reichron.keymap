@@ -46,17 +46,17 @@
 &kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U     &kp I     &kp O    &kp P     &kp LBKT  &kp RBKT  &kp BSLH
 &kp CAPS  &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J     &kp K     &kp L    &kp SEMI  &kp SQT   &kp RET
 &kp LSHFT &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M     &kp COMMA &kp DOT  &kp FSLH  &kp RSHFT &kp END   &kp DEL
-&kp LCTRL &kp LGUI &kp LALT                      &kp SPACE                          &kp RALT &mo 1     &kp UP    &kp DOWN  &kp INS
+&kp LCTRL &kp LGUI &kp LALT                      &kp SPACE                          &kp RALT &mo 1     &kp LEFT  &kp RIGHT &kp INS
             >;
         };
         
         bluetooth_layer {
             bindings = <
-&sys_reset &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans       &trans       &bootloader &trans       &trans       &trans       &trans &trans &trans &bt BT_CLR
-&trans     &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans       &trans       &trans &trans &trans &trans
-&trans     &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans       &trans       &trans &trans        &trans
-&trans     &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans       &trans       &trans &trans &trans &trans
-&trans     &trans       &trans                    &trans                                &trans       &kp LEFT     &kp RIGHT    &trans &trans
+&sys_reset     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans       &trans       &trans      &trans       &trans       &trans       &trans   &trans &trans &bt BT_CLR
+&bootloader    &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans       &trans       &trans   &trans &trans &trans
+&trans         &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans       &trans       &trans   &trans        &trans
+&trans         &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans       &trans       &trans   &trans &trans &trans
+&trans         &trans       &trans                    &trans                                &trans       &trans       &kp UP       &kp DOWN &trans
             >;
         };
     };
